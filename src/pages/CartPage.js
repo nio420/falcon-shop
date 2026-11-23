@@ -261,7 +261,7 @@ const CartPage = () => {
                               <div className="d-flex align-items-center gap-2">
                                 <button
                                   className="btn btn-outline-secondary btn-sm p-1"
-                                  onClick={() => updateQuantity(item.id, -1)}
+
                                 >
                                   <FaMinus />
                                 </button>
@@ -273,7 +273,7 @@ const CartPage = () => {
                                 </span>
                                 <button
                                   className="btn btn-outline-secondary btn-sm p-1"
-                                  onClick={() => updateQuantity(item.id, 1)}
+
                                 >
                                   <FaPlus />
                                 </button>
@@ -281,7 +281,7 @@ const CartPage = () => {
 
                               <button
                                 className="btn btn-link text-danger"
-                                onClick={() => removeItem(item.id)}
+
                               >
                                 <FaTrash className="me-1" />
                                 Remove
